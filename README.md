@@ -21,7 +21,6 @@ A modern, hacker-inspired web vulnerability scanner designed to identify and cat
 ---
 
 ##  Getting Started
-    ```bash
     # Fork the project
     # Create your feature branch
     git checkout -b feature/amazing-feature
@@ -36,7 +35,6 @@ A modern, hacker-inspired web vulnerability scanner designed to identify and cat
 
 ###  Installation
 
-    ```bash
     # Clone the repository
     git clone https://github.com/TheRealAngelo/SeScan.git
 
