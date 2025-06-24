@@ -1,65 +1,71 @@
-SeScan - Web Vulnerability Scanner
-<img alt="SeScan Logo" src="https://img.shields.io/badge/SeScan-Security Scanner-05101f?style=for-the-badge&amp;logo=shield&amp;logoColor=0dff00">
-A modern, stylish web vulnerability scanner with a hacker-inspired interface. SeScan helps you identify security vulnerabilities in web applications before they can be exploited.
+# SeScan - Web Vulnerability Scanner
 
-<img alt="Python" src="https://img.shields.io/badge/python-3.8+-blue.svg">
-<img alt="Flask" src="https://img.shields.io/badge/flask-2.0.1-green.svg">
-<img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg">
+<div align="center">
+  <img src="https://img.shields.io/badge/SeScan-Security%20Scanner-05101f?style=for-the-badge&logo=shield&logoColor=0dff00" alt="SeScan Badge" />
+</div>
 
-⚡ Features
-XSS Detection - Identifies Cross-Site Scripting vulnerabilities in forms
-SQL Injection Testing - Detects database query vulnerabilities
-Security Header Analysis - Evaluates missing or misconfigured HTTP headers
-Open Redirect Detection - Identifies URL parameters vulnerable to redirects
-🛡️ Screenshots
-<div align="center"> <img src="https://via.placeholder.com/800x400/0a192f/0dff00?text=SeScan+Interface" alt="SeScan Interface" width="800"/> <p><em>Modern, hacker-inspired interface with real-time vulnerability scanning</em></p> </div>
-🚀 Installation
+A modern, hacker-inspired web vulnerability scanner designed to identify and categorize security flaws in web applications—**before** attackers do.
 
-# Clone the repository
-git clone https://github.com/TheRealAngelo/SeScan.git
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![Flask](https://img.shields.io/badge/flask-2.0.1-green.svg)
 
-# Navigate to the project directory
-cd SeScan
+---
 
-# Install dependencies
-pip install -r requirements.txt
+## Features
 
-Web Interface
-python app.py
+-  **XSS Detection** – Identifies Cross-Site Scripting vulnerabilities in forms  
+-  **SQL Injection Testing** – Finds database query injection points  
+-  **Security Header Analysis** – Highlights missing/misconfigured HTTP security headers  
+-  **Open Redirect Detection** – Detects redirect-based vulnerabilities in URL parameters  
 
-http://localhost:8000
+---
 
-How to Scan a Website
-Enter the target URL in the scan form (with http:// or https://)
-Click the "Scan Now" button
-View the results categorized by vulnerability type
-🔧 Tech Stack
-Frontend: HTML5, CSS3, JavaScript, Bootstrap 5
-Backend: Python, Flask
-Security Analysis: Requests, BeautifulSoup4
-Animation: Animate.css
+##  Getting Started
+    ```bash
+    # Fork the project
+    # Create your feature branch
+    git checkout -b feature/amazing-feature
 
-⚠️ Disclaimer
-SeScan should only be used on websites you own or have explicit permission to test. Unauthorized security testing may be illegal.
+    # Commit your changes
+    git commit -m 'Add some amazing feature'
 
-🔜 Roadmap
-<input disabled="" type="checkbox"> Add authentication bypass scanning
-<input disabled="" type="checkbox"> Implement file inclusion vulnerability checks
-<input disabled="" type="checkbox"> Create PDF reporting capability
-<input disabled="" type="checkbox"> Add scheduled scanning feature
-<input disabled="" type="checkbox"> Develop API for integration with other tools
-🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+    # Push to GitHub
+    git push origin feature/amazing-feature
 
-Fork the project
-Create your feature branch (git checkout -b feature/amazing-feature)
-Commit your changes (git commit -m 'Add some amazing feature')
-Push to the branch (git push origin feature/amazing-feature)
-Open a Pull Request
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+    # Open a Pull Request
 
-👨‍💻 Author
-Created by Angelo Morales
+###  Installation
 
-<div align="center"> <p>© 2025 SeScan</p> </div>
+    ```bash
+    # Clone the repository
+    git clone https://github.com/TheRealAngelo/SeScan.git
+
+    # Navigate into the project directory
+    cd SeScan
+
+    # Install dependencies
+    pip install -r requirements.txt
+
+    #Lunch
+    python app.py
+    http://localhost:8000
+
+## How to Use
+- Enter the target URL in the scan form (include http:// or https://)
+
+- Click the Scan Now button
+
+- View categorized results based on the vulnerability type
+
+## Tech Stack
+- Frontend: HTML5, CSS3, JavaScript, Bootstrap 5, Animate.css
+
+- Backend: Python, Flask
+
+- Security Tools: Requests, BeautifulSoup4
+
+## Disclaimer
+SeScan is for educational and authorized testing only.
+Do not scan websites without explicit permission. Unauthorized use may be illegal.
+
+<div align="center"> <p>Angelo Morales © 2025 SeScan</p> </div>
