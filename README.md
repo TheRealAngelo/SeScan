@@ -63,7 +63,7 @@ A modern, hacker-inspired web vulnerability scanner designed to identify and cat
 - Security Tools: Requests, BeautifulSoup4
 
 ## Disclaimer
-SeScan is for educational and authorized testing only.
-Do not scan websites without explicit permission. Unauthorized use may be illegal.
+<div align="center">SeScan is for educational and authorized testing only. <br>
+Do not scan websites without explicit permission. Unauthorized use may be illegal.</p> </div>
 
 <div align="center"> <p>Angelo Morales © 2025 SeScan</p> </div>
